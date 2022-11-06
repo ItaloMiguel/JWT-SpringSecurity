@@ -1,0 +1,1 @@
+docker-compose exec db mysql course -p #Senha: root
