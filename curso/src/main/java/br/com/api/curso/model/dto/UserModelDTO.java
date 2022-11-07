@@ -1,5 +1,6 @@
 package br.com.api.curso.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,5 +11,6 @@ import lombok.NoArgsConstructor;
 public class UserModelDTO {
 
     private String username;
+    @JsonIgnore
     private String password;
 }
