@@ -1,2 +1,4 @@
-package br.com.api.curso.service;public interface RoleService {
+package br.com.api.curso.service;
+
+public interface RoleService {
 }
